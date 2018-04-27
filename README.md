@@ -1,6 +1,6 @@
 # Compact Squash Commits
 
-Chrome extension to remove new lines and consecutive duplicate commit messages when doing a `Squash and merge` in GitHub.
+Chrome/Firefox extension to remove new lines and consecutive duplicate commit messages when doing a `Squash and merge` in GitHub.
 
 ## Before
 
