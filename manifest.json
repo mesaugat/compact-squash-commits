@@ -1,0 +1,22 @@
+{
+	"name": "Compact Squash Commits",
+	"short_name": "compact-squash-commits",
+	"description": "Remove new lines and consecutive duplicate commit messages when doing a `Squash and Merge` in GitHub",
+	"manifest_version": 2,
+	"version": "1.0.0",
+	"author": "Saugat Acharya",
+	"homepage_url": "https://github.com/mesaugat/compact-squash-commits",
+	"content_scripts": [{
+		"matches": ["https://github.com/*"],
+		"include_globs": ["*pull\/*"],
+		"js": ["main.js"],
+		"run_at": "document_end",
+		"all_frames": true
+	}],
+	"icons": {
+		"16": "icons/16.png",
+		"32": "icons/32.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	}
+}
