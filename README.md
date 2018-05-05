@@ -2,6 +2,11 @@
 
 Chrome/Firefox extension to remove new lines and consecutive duplicate commit messages when doing a `Squash and merge` in GitHub.
 
+# Install
+
+* [Chrome](https://chrome.google.com/webstore/detail/compact-squash-commits/hcbifinmgpnpdaonfacjjhlnopollhkl)
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/compact-squash-commits)
+
 ## Before
 
 ![GitHub "Squash and merge"](https://i.imgur.com/TU2GIYQ.png)
