@@ -8,7 +8,6 @@
 	"homepage_url": "https://github.com/mesaugat/compact-squash-commits",
 	"content_scripts": [{
 		"matches": ["https://github.com/*"],
-		"include_globs": ["*pull\/*"],
 		"js": ["main.js"],
 		"run_at": "document_end",
 		"all_frames": true
